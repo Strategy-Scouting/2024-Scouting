@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023tnkn",
+      "defaultValue": "2024 Kettering #2",
       "required": "true"
     },
     { "name": "Match Level",
@@ -40,12 +40,12 @@ var config_data = `
       "code": "r",
       "type": "robot",
       "choices": {
-        "r1": "Red-1",
-        "b1": "Blue-1<br>",
-        "r2": "Red-2",
-        "b2": "Blue-2<br>",
-        "r3": "Red-3",
-        "b3": "Blue-3"
+        "r1": "Red-Far",
+        "b1": "Blue-Far<br>",
+        "r2": "Red-Mid",
+        "b2": "Blue-Mid<br>",
+        "r3": "Red-Close",
+        "b3": "Blue-Close"
       },
       "required":"true"
     },
