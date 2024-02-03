@@ -91,6 +91,10 @@ var config_data = `
       "code": "tta",
       "type": "counter"
     },
+    { "name": "Note in Trap",
+      "code": "nitt",
+      "type": "counter"
+    },
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
@@ -104,64 +108,29 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Stage Timer",
-      "code": "dt",
-      "type": "timer"
-    },
+    
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
       "choices": {
-        "p": "Parked<br>",
-        "o": "Onstage<br>",
-        "s": "Onstage (Spotlit)<br>",
-        "h": "Harmony<br>",
-        "a": "Attempted but failed<br>",
-        "x": "Not attempted"
+        "p": "Parked<br><br>",
+        "o": "Onstage<br><br>",
+        "s": "Spotlit and Onstage<br><br>",        
+        "a": "Attempted climb but failed<br><br>",
+        "x": "Climb not attempted<br><br>",
+        "h": "Harmony"
       },
       "defaultValue": "x"
     },
     { "name": "Note in Trap",
       "code": "nit",
-      "type": "bool"
+      "type": "counter"
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Defense Rating",
-      "code": "dr",
-      "type": "radio",
-      "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
-        "x": "Did not play defense"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Speed Rating",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "1 (slow)<br>",
-        "2": "2<br>",
-        "3": "3<br>",
-        "4": "4<br>",
-        "5": "5 (fast)"
-      },
-      "defaultValue":"3"
-    },
+
+             
+    
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
@@ -174,11 +143,7 @@ var config_data = `
       "code": "dn",
       "type": "bool"
     },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
-      "type": "bool"
-    },
+    
     { "name": "Comments",
       "code": "co",
       "type": "text",
