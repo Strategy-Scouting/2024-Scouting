@@ -117,11 +117,16 @@ var config_data = `
         "o": "Onstage<br><br>",
         "s": "Spotlit and Onstage<br><br>",        
         "a": "Attempted climb but failed<br><br>",
-        "x": "Climb not attempted<br><br>",
-        "h": "Harmony"
+        "x": "Climb not attempted"
+        
       },
       "defaultValue": "x"
     },
+    { "name": "Harmony",
+      "code": "h",
+      "type": "bool"
+    },
+
     { "name": "Note in Trap",
       "code": "nit",
       "type": "counter"
