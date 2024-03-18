@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024 Kettering #2",
+      "defaultValue": "2024 Troy #1",
       "required": "true"
     },
     { "name": "Match Level",
@@ -110,7 +110,6 @@ var config_data = `
         "p": "Parked<br><br>",
         "o": "Onstage<br><br>",
         "s": "Spotlit and Onstage<br><br>",        
-        "a": "Attempted climb but failed<br><br>",
         "x": "Climb not attempted"
         
       },
