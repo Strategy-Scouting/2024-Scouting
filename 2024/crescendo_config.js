@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024 Troy #1",
+      "defaultValue": "2024 States",
       "required": "true"
     },
     { "name": "Match Level",
